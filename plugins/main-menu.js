@@ -362,7 +362,7 @@ let buttonMessage= {
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(menu|\?)$/i
+handler.command = /^(menu|\?|Lynn|lyn|Lyn|lynn)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
