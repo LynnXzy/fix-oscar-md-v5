@@ -39,7 +39,7 @@ Contact person Owner:
  ࿑ Owner wa.me/60189830350 ( pemilik bot )`
 let nth = `*𝚂𝚞𝚙𝚙𝚘𝚛𝚝 Lynn-𝙼𝚞𝚕𝚝𝚒𝙳𝚎𝚟𝚒𝚌𝚎*`
 conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`, nth, rules, 'Sosial Media', '.sosialmedia', 'Owner', '.owner', 'Donasi', '.donasi', fcon, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://wa.me/p/5489299044451325/6285850539404',
+    mediaUrl: 'https://wa.me/p/5183720695067311/60189830350',
     mediaType: 2, 
     description: sgc,
     title: "Sᴇᴡᴀ Cʜᴀᴛ ᴏᴡɴᴇʀ!!!",
