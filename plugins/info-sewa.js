@@ -1,17 +1,17 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '10'
-let sn = '15'
-let ss = '30'
+let sh = '5'
+let sn = '20'
+let ss = '35'
 let sp = '45'
 let sv = '80'
 //premium
 let ph = '10'
 let pn = '20'
 let pp = '40'
-let pv = '50'
-let ppm = '100'
+let pv = '45'
+let ppm = '55'
 let info = `
 ╭━━━━「 *SEWA* 」
 ┊⫹⫺ *Hemat:* _${sh}k/grup (1 minggu)_
@@ -22,16 +22,16 @@ let info = `
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
-┊⫹⫺ *Hemat:* _${ph}k (1 minggu)_
-┊⫹⫺ *Normal:* _${pn}k (1 bulan)_
-┊⫹⫺ *Pro:* _${pp}k (4 bulan)_
-┊⫹⫺ *Vip:* _${pv}k (8 bulan)_                                               
-┊⫹⫺ *Permanent:* = _${ppm}k (Unlimited)_
+┊⫹⫺ *Hemat:* _Rm ${ph} (1 minggu)_
+┊⫹⫺ *Normal:* _Rm ${pn} (1 bulan)_
+┊⫹⫺ *Pro:* _Rm ${pp} (4 bulan)_
+┊⫹⫺ *Vip:* _Rm ${pv} (8 bulan)_                                               
+┊⫹⫺ *Permanent:* = _Rm ${ppm} (Unlimited)_
 ╰═┅═━––––––๑
 
 *⫹⫺ PAYMENT:*
-• *Pulsa:* ['6285850539404]
-• *Dana:* ['6285850539404']
+• *Maxis:* ['60147675746']
+• *Digi:* ['60149431385']
 
 –––––– *🐾 Kebijakan* ––––––
 🗣️: Kak, Kok harganya mahal banget?
@@ -46,20 +46,20 @@ const sections = [
    {
 	title: ` SEWA ✦-------`,
 	rows: [
-	    {title: "🔖 HEMAT", rowId: '.orsewa *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
-	    {title: "🔖 NORMAL", rowId: '.orsewa *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
-	{title: "🔖 STANDAR", rowId: '.orsewa *Paket:* STANDAR • Sewa', description: 'PRICE: ' + ss + 'k (2 bulan)' },
-	{title: "🔖 PRO", rowId: '.orsewa *Paket:* PRO • Sewa', description: 'PRICE: ' + sp + 'k (4 bulan)' },
-	{title: "🔖 VIP", rowId: '.orsewa *Paket:* VIP • Sewa', description: 'PRICE: ' + sv + 'k (12 bulan)' },
+	    {title: "🔖 HEMAT", rowId: '.orsewa *Paket:* HEMAT • Sewa', description: 'PRICE: Rm' + sh + ' (1 minggu)' },
+	    {title: "🔖 NORMAL", rowId: '.orsewa *Paket:* NORMAL • Sewa', description: 'PRICE: Rm' + sn + ' (1 bulan)' },
+	{title: "🔖 STANDAR", rowId: '.orsewa *Paket:* STANDAR • Sewa', description: 'PRICE: Rm' + ss + ' (2 bulan)' },
+	{title: "🔖 PRO", rowId: '.orsewa *Paket:* PRO • Sewa', description: 'PRICE: Rm' + sp + ' (4 bulan)' },
+	{title: "🔖 VIP", rowId: '.orsewa *Paket:* VIP • Sewa', description: 'PRICE: Rm' + sv + ' (12 bulan)' },
 	]
     }, {
     title: ` PREMIUM ✦-------`,
 	rows: [
-	    {title: "🌟 HEMAT", rowId: '.orsewa *Paket:* HEMAT • Premium', description: 'PRICE: ' + ph + 'k (1 minggu)' },
-	    {title: "🌟 NORMAL", rowId: '.orsewa *Paket:* NORMAL • Premium', description: 'PRICE: ' + pn + 'k (1 bulan)' },
-	{title: "🌟 PRO", rowId: '.orsewa *Paket:* PRO • Premium', description: 'PRICE: ' + pp + 'k (4 bulan)' },
-	{title: "🌟 VIP", rowId: '.orsewa *Paket:* VIP • Premium', description: 'PRICE: ' + pv + 'k (8 bulan)' },
-	{title: "🌟 PERMANENT", rowId: '.orsewa *Paket:* PERMANENT • Premium', description: 'PRICE: ' + ppm + 'k (UNLIMITED)' },
+	    {title: "🌟 HEMAT", rowId: '.orsewa *Paket:* HEMAT • Premium', description: 'PRICE: Rm' + ph + ' (1 minggu)' },
+	    {title: "🌟 NORMAL", rowId: '.orsewa *Paket:* NORMAL • Premium', description: 'PRICE: Rm' + pn + ' (1 bulan)' },
+	{title: "🌟 PRO", rowId: '.orsewa *Paket:* PRO • Premium', description: 'PRICE: Rm' + pp + ' (4 bulan)' },
+	{title: "🌟 VIP", rowId: '.orsewa *Paket:* VIP • Premium', description: 'PRICE: Rm' + pv + ' (8 bulan)' },
+	{title: "🌟 PERMANENT", rowId: '.orsewa *Paket:* PERMANENT • Premium', description: 'PRICE: Rm' + ppm + ' (UNLIMITED)' },
 	]
     },
 ]
