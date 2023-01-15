@@ -19,9 +19,9 @@ let handler = async (m, { conn }) => {
     }).format(d)
 
 let run = `⊙────❲ R U N T I M E 〕
-⫹⫺ Time : *${wib}*
-⫹⫺ Running : *${uptime}*
-⫹⫺ Date : *${week} ${date}*
+⫹⫺ ⏱️Time : *${wib}*
+⫹⫺ ⏲️Running : *${uptime}*
+⫹⫺ 📅Date : *${week} ${date}*
 ────────────⊙ `
       conn.sendBut( m.chat, run, wm, `Menu`, `.menu`, m)
 }
