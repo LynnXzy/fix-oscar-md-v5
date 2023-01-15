@@ -29,10 +29,9 @@ N:;;;
 FN: ᯤ Lynn 𝙊𝙛𝙘
 item.ORG: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
 item1.TEL;waid=60189830350:60189830350@s.whatsapp.net
-item1.X-ABLabel: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
-// Jangan Di Ganti Nomer Yang Bawah!! Jangan Lupa berterima kasih 
+item1.X-ABLabel: OwnerBotz  
 item2.TEL;waid=60149431385:60149431385@s.whatsapp.net
-item2.X-ABLabel: Creator Bot
+item2.X-ABLabel: Bot Lynn
 END:VCARD`
 const sentMsg  = await conn.sendMessage(
     m.chat,
