@@ -1,6 +1,6 @@
 let fs = require('fs')
 let handler = async (m, { conn }) => {
-let jarot = 'https://telegra.ph/file/947607f0d10667f4f8e0f.jpg'
+let jarot = 'https://telegra.ph/file/f2c69a474714a70b7f2d6.jpg'
 let os = `┌─── 〔 TUTORIAL JADIBOT 〕 ───
 ✘.SILAHKAN KE BERANDA WHATSAPP 
 ✘.CARI TULISAN PERANGKAT TAUTAN 
