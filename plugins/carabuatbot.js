@@ -14,7 +14,7 @@ let os = `┌─── 〔 TUTORIAL JADIBOT 〕 ───
 ❍ TUTOR DAPETIN KODE QR ❍
 
 ✘.JOIN GROUP BOT
-https://chat.whatsapp.com/KGuKY4wuKHS8sj6K5IHjFG
+https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD
 ✘.JANGAN LUPA TAG OWNER
 ✘.BIAR DI ACC KALO UDAH DI ACC
 ✘.KETIK .jadibot DI NOMER BOT INI
