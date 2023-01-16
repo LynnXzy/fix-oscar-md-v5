@@ -14,7 +14,7 @@ handler.tags = ['owner']
 
 handler.rowner = true
 
-handler.command = /^(acc)$/i
+handler.command = /^(acc|upjadibot)$/i
 
 
 
