@@ -1,18 +1,21 @@
-let fetch = require('node-fetch')
-let handler = async (m, { conn, text }) => {
-    if (!text) throw 'Cari apa?'
-    let res = await fetch(global.API('xteam', '/search/grupwa', {
-        q: text
-    }, 'APIKEY'))
-    if (res.status !== 200) throw await res.text()
-    let json = await res.json()
-    if (!json.status) throw json
-    let teks = json.result.map(res => res.subject + '\n' + res.link).join('\n\n')
-    m.reply(teks)
+import fetch from 'node-fetch'
+let handler = async (m, { text, usedPrefix, command }) => {
+    if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} mabar`
+    
+    let json = await fetch(`https://api.tiodevhost/api/search/linkgroupwa?text=${text}`)
+        let jsons = await json.json()
+        let caption = `*⎔┉━「 ${command} 」━┉⎔*`
+        for (let x of jsons.result) {
+        caption += `
+*Nama* : ${x.nama}
+*Link :* ${x.link}
+`}
+        return m.reply(caption)
+        
 }
 handler.help = ['carigrup <pencarian>']
 handler.tags = ['tools']
 
-handler.command = /^carigrup/i
+handler.command = /^carig(ro?up|c)/i
 
-module.exports = handler
+export default handler
