@@ -1,13 +1,13 @@
-global.you = ['60189830350'] 
+global.you = ['6285609816373'] 
 //Developer Bot
-global.namebot = 'Lynn-Md🍭'
-global.rowner = ['60189830350', '60149431385'] // Real Owner Bot
-global.owner = ['60189830350'] // Owner Bot
+global.namebot = 'Yogaa-Md🍭'
+global.rowner = ['6285609816373', '6285609816373'] // Real Owner Bot
+global.owner = ['6285609816373'] // Owner Bot
 global.police = [] // Police Bot
 global.mods = []  // Want some help?
 global.prems = [] // Premium user has unlimited limit
 
-global.helper = ['60189830350']
+global.helper = ['6285609816373']
 global.api = '45083080630f3830a5bed882'
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -85,9 +85,9 @@ global.ytowner = '⫹⫺ Jangan Lupa Subscribe https://youtube.com/channel/UC3Y7
 global.gc2 = '⫹⫺ Nih Jangan Lupa Join https://chat.whatsapp.com/GzDQlgoUamS5Ok4EOcYRRB'
 global.diskusi = '⫹⫺ Nih Jangan Lupa Join https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD'
 // Sticker WM
-global.packname = 'Lynn-Md🍭'
-global.author = 'BotzWa🐸'
-global.wm = '© By Lynn-Md🐸'
+global.packname = 'Yoga-Md🍭'
+global.author = 'YogaWa🐸'
+global.wm = '© By Yoga-Md🐸'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
