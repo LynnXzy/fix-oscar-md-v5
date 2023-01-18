@@ -14,11 +14,11 @@ let pv = '45'
 let ppm = '55'
 let info = `
 ╭━━━━「 *SEWA* 」
-┊⫹⫺ *Hemat:* _${sh}k/grup (1 minggu)_
-┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_
-┊⫹⫺ *Standar:* _${ss}k/grup (2 bulan)_
-┊⫹⫺ *Pro:* _${sp}k/grup (4 bulan)_                                                      
-┊⫹⫺ *Vip:* = _${sv}k/grup (12 bulan)_
+┊⫹⫺ *Hemat:* _Rm ${sh}/grup (1 minggu)_
+┊⫹⫺ *Normal:* _Rm ${sn}/grup (1 bulan)_
+┊⫹⫺ *Standar:* _Rm ${ss}/grup (2 bulan)_
+┊⫹⫺ *Pro:* _Rm ${sp}/grup (4 bulan)_                                                      
+┊⫹⫺ *Vip:* = _Rm ${sv}/grup (12 bulan)_
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
