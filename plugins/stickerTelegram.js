@@ -67,7 +67,7 @@ handler.tags = ['premium']
 handler.command = /^(stic?kertele(gram)?)$/i
 
 handler.limit = false
-handler.premium = true
+handler.premium = false
 
 module.exports = handler
 
